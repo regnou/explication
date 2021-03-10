@@ -9,7 +9,8 @@ VS
 ctrl P - shell command
 
 # dependencies (nvm... already installed)
-# yarn global
+
+### yarn global
 yarn global add firebase-tools      // npm install -g firebase-tools
 yarn global add eslint
 yarn global add sirv
@@ -22,7 +23,7 @@ yarn -D firebase
 ### git
 git init
 
-# firebase
+### firebase
 firebase login
 firebase use demofirebasesvelte
 firebase init // firebase init hosting / firebase init functions
@@ -35,7 +36,7 @@ firebase init // firebase init hosting / firebase init functions
 # build
 ## DEV MODE . . . . . . . . . . . . . . . . . . . . . 
 
-  # build firebaase
+  ### build firebaase
     - firebase start
     - firebase emulator
 
@@ -43,22 +44,22 @@ firebase init // firebase init hosting / firebase init functions
 
 ## PROD MODE . . . . . . . . . . . . . . . . . . . . . 
 
-# deploy
+### deploy
   firebase deploy
   firebase deploy --only hosting
 
- # deploy combos (tu change de project a l interieur de la m app)
+ #### deploy combos (tu change de project a l interieur de la m app)
   firebase use --add maconerie
   firebase target:apply hosting maconerie app-maconerie
   firebase target:clear hosting crm
   firebase deploy --only hosting:axel-maconerie
 
-# deploy static build sapper on firebase
+#### deploy static build sapper on firebase
   alias task1='cd $HOME/0HOME/0GIT/GEN/ax-firebase-sapper/sapper && yarn export'
   alias task2='cd $HOME/0HOME/0GIT/GEN/ax-firebase-sapper/firebase && firebase deploy --only hosting
 
-# libs
- ## create own libs on NPM
+### libs
+ #### create own libs on NPM
   npm login --registry=https://npm.pkg.github.com --scope=@regnou
   pwd npm login --registry=https://npm.pkg.github.com --scope=@regnou
   // github axel token = 253ac2d17c2534611bb25abfd4e54435ec8ff6c1
