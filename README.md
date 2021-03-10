@@ -1,5 +1,14 @@
 # explication
 
+# assemblage
+1  . firebase auth (manual-emulator-testing)
+2  . firestore local et prod
+3  x svelte
+4    tailwind
+5    sapper
+ 
+
+
 # comments
 pour lancer sans husky -->  git commit -n -m 'k'
 angular - jasmin + karma pour tests
