@@ -47,13 +47,13 @@ firebase init // firebase init hosting / firebase init functions
 ### deploy
   firebase deploy
   firebase deploy --only hosting
-
+ ---
  #### deploy combos (tu change de project a l interieur de la m app)
   firebase use --add maconerie
   firebase target:apply hosting maconerie app-maconerie
   firebase target:clear hosting crm
   firebase deploy --only hosting:axel-maconerie
-
+---
 #### deploy static build sapper on firebase
   alias task1='cd $HOME/0HOME/0GIT/GEN/ax-firebase-sapper/sapper && yarn export'
   alias task2='cd $HOME/0HOME/0GIT/GEN/ax-firebase-sapper/firebase && firebase deploy --only hosting
@@ -83,7 +83,7 @@ firebase init // firebase init hosting / firebase init functions
 
 npx create-snowpack-app dir-name --template svelte-tailwind-snowpack
 
----
+
 
 ya regnou/wc/wc-category 
 
