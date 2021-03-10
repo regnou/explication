@@ -14,12 +14,12 @@ yarn global add firebase-tools      // npm install -g firebase-tools
 yarn global add eslint
 yarn global add sirv
 
-# yarn
+### yarn
 yarn init
 yarn init
 yarn -D firebase
  
-# git
+### git
 git init
 
 # firebase
