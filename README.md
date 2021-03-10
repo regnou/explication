@@ -3,9 +3,11 @@
 # assemblage
 1  . firebase auth (manual-emulator-testing)
 2  . firestore local et prod
-3  x svelte
-4    tailwind
+   . git + github
+3  . svelte
+4  x tailwind / postCss
 5    sapper
+6    lambda firebase
  
 
 
@@ -31,6 +33,13 @@ yarn -D firebase
  
 ### git
 git init
+git branch -M master
+git remote add origin https://github.com/regnou/minimalist.git
+git push -u origin master
+// branch origin ?
+git remote get-url --all origin
+
+
 
 ### firebase
 firebase login
@@ -107,18 +116,6 @@ git ls-tree -r -t -l --full-name HEAD | sort -n -k 4
 
 // pending push ?
 git diff --stat --cached origin/master
-
-// branch origin ?
-git remote get-url --all origin
-
-echo "# 3-ms" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/regnou/3-ms.git
-git push -u origin master
-
 
 
 
