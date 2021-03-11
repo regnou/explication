@@ -2,12 +2,17 @@
 
 # assemblage
 1  . firebase auth (manual-emulator-testing)
+1  . firebase hosting
 2  . firestore local et prod
    . git + github
 3  . svelte
 4  x tailwind / postCss
+     CRM app + READ app   
+
 5    sapper
 6    lambda firebase
+
+8.   
  
 
 
