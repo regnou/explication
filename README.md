@@ -7,8 +7,8 @@
    . git + github
 3  . svelte
 4  x tailwind / postCss
--- pb lenteur --
-
+     SNOWPACK starter (official) -- issue: pb lenteur --
+     
      CRM app + READ app   
 
 5    sapper
