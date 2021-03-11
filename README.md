@@ -1,13 +1,24 @@
 # explication
 
+
+
 # assemblage
+
+     SNOWPACK starter (official) -- issue: pb lenteur --
+     
+   . git + github
+   
+
+cf. voir minimalist
 1  . firebase auth (manual-emulator-testing)
 1  . firebase hosting
 2  . firestore local et prod
-   . git + github
+
+cf. voir munxar
+npx degit munxar/svelte-template my-svelte-project
 3  . svelte
 4  x tailwind / postCss
-     SNOWPACK starter (official) -- issue: pb lenteur --
+     
      
      CRM app + READ app   
 
